@@ -1,17 +1,17 @@
-site_name: Your Site Name
-site_description: Your site description
-site_url: https://yourdomain.com
+site_name: Kate Data
+site_description: TBD
+site_url: https://kate-data.com
 
 nav:
   - Home:
     - About: index.md
-  - Case Studies:
-    - Overview: portfolio/index.md
-    - Projects:
-      - portfolio/projects/project-1.md
-      - portfolio/projects/project-2.md
-  - Blog:
-    - blog/index.md 
+  # - Case Studies:
+  #   - Overview: portfolio/index.md
+  #   - Projects:
+  #     - portfolio/projects/project-1.md
+  #     - portfolio/projects/project-2.md
+  #- Blog:
+  #  - blog/index.md 
 
 theme:
   name: material
@@ -45,20 +45,20 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: material/slash-forward-box
-  favicon: assets/favicon.png
+    logo: material/graphql
+  favicon: assets/test.png
 
 extra:
   generator: true
   social:
     - icon: fontawesome/solid/building
-      link: https://company.com
+      link: https://kate-data.com
     - icon: fontawesome/brands/github
-      link: https://github.com/
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/
+      link: https://github.com/KSchachmatov
+    #- icon: fontawesome/brands/youtube
+    #  link: https://youtube.com/
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com
+      link: https://www.linkedin.com/katharina-schachmatov
   analytics:
     # provider: google
     # property: G-W9Y130NXVZ
@@ -70,11 +70,11 @@ plugins:
   - search
   - social:
       cards_layout_options:
-        background_color: "#111111"
-  - blog:
-      blog_dir: blog
-      authors_file: "{blog}/.authors.yml"
-      categories: true
+        background_color: "#723d46"
+  # - blog:
+  #     blog_dir: blog
+  #     authors_file: "{blog}/.authors.yml"
+  #     categories: true
 
 markdown_extensions:
   - attr_list
@@ -102,4 +102,4 @@ extra_files:
   - docs/robots.txt
 
 copyright: |
-  &copy; 2024 <a href="https://www.linkedin.com" target="_blank" rel="noopener">John Doe</a>. All rights reserved.
+  &copy; 2024 <a href="https://www.linkedin.com/in/katharina-schachmatov/" target="_blank" rel="noopener">Katharina Schachmatov</a>. All rights reserved.

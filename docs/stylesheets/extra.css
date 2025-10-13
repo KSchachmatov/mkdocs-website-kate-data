@@ -1,16 +1,54 @@
+/* FAQ Section - Light Theme */
+.faq-custom details.note {
+  --md-admonition-bg-color: #faf5f0 !important;
+  border: 1px solid #723d46 !important;
+  border-left: 2px solid #723d46 !important;
+}
+
+.faq-custom details.note > summary {
+  background-color: #c9cba3 !important;
+}
+
+.faq-custom details.note > summary::before {
+  background-color: #723d46 !important;
+}
+
+.faq-custom details.note > summary::after {
+  color: #723d46 !important;
+}
+
+/* FAQ Section - Dark Theme */
+[data-md-color-scheme="slate"] .faq-custom details.note {
+  --md-admonition-bg-color: #2a1f1f !important;
+  border: 1px solid #faf5f0 !important;
+  border-left: 2px solid #faf5f0 !important;
+}
+
+[data-md-color-scheme="slate"] .faq-custom details.note > summary {
+  background-color: #723d46 !important;
+}
+
+[data-md-color-scheme="slate"] .faq-custom details.note > summary::before {
+  background-color: #faf5f0 !important;
+}
+
+[data-md-color-scheme="slate"] .faq-custom details.note > summary::after {
+  color: #faf5f0 !important;
+}
+
 /* Light theme custom colors */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #000111;
-  --md-accent-fg-color: #2856f7;
+  --md-primary-fg-color: #472d30;
+  --md-accent-fg-color: #e26d5c;
   --md-typeset-a-color: var(--md-accent-fg-color);
   --md-footer-bg-color: var(--md-primary-fg-color);
 }
 
 /* Dark theme custom colors */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #000111;
-  --md-default-bg-color: #090d1d;
-  --md-accent-fg-color: #8e92f8;
+  --md-primary-fg-color: #723d46;
+  --md-default-bg-color: #000111;
+  --md-accent-fg-color: #c9cba3;
   --md-typeset-a-color: var(--md-accent-fg-color);
 }
 
@@ -24,12 +62,12 @@
 [data-md-color-scheme="slate"] .md-button:hover {
   background-color: #ffffff;
   border-color: #ffffff;
-  color: #000000;
+  color: #000111;
 }
 
 /* Footer Section */
 .md-footer {
-  background-color: #090d1d;
+  background-color: #723d46;
 }
 
 .md-footer-meta {
@@ -53,5 +91,4 @@
     color: var(--md-default-fg-color--light);
     font-size: 0.9rem;
 }
-
 

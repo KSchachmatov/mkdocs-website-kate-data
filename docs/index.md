@@ -1,59 +1,48 @@
 ---
 title: About Me
-description: Explore AI, data science, and entrepreneurship with Dave Ebbelaar. Learn about Datalumina, AI tutorials, freelancing, and innovative AI solutions for businesses.
-keywords: Dave Ebbelaar, AI entrepreneur, Datalumina, AI tutorials, Data Freelancer, GenAI Launchpad
-author: Dave Ebbelaar
-canonical_url: https://www.daveebbelaar.com/
+description: Explore AI and data science with Katharina Schachmatov. 
+# Learn about Datalumina, AI tutorials, freelancing, and innovative AI solutions for businesses.
+# "image": "https://avatars.githubusercontent.com/u/34709402?v=4",
+keywords: Katharina Schachmatov, AI entrepreneur, Kate Data, Data Freelancer
+author: Katharina Schachmatov
+canonical_url: https://www.kate-data.com/
 ---
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Dave Ebbelaar",
-  "url": "https://www.daveebbelaar.com/",
-  "image": "https://avatars.githubusercontent.com/u/34709402?v=4",
+  "name": "Katharina Schachmatov",
+  "url": "https://www.kate-data.com/",
   "sameAs": [
-    "https://www.youtube.com/channel/UCn8ujwUInbJkBhffxqAPBVQ",
-    "https://www.youtube.com/@daveebbelaar",
-    "https://www.linkedin.com/in/daveebbelaar/",
-    "https://github.com/daveebbelaar"
-    "https://www.skool.com/@daveebbelaar"
+    "https://www.linkedin.com/in/katharina-schachmatov/",
+    "https://github.com/KSchachmatov"
   ],
-  "jobTitle": "Founder & CEO",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Datalumina",
-    "url": "https://www.datalumina.com/"
-  },
 }
+
 </script>
 
 <div class="hero-section grid-container" markdown>
 
 <div class="text-intro-grid" markdown>
 
-# Turn AI complexity into your competitive advantage
+# Build AI solutions that work for your business
 
-### I have 5+ years experience doing just that
+### I help you move from AI hype to real results
 
-- Are you struggling to keep up with the rapid pace of AI innovation?
+- Struggling to implement AI effectively while competitors move fast?
+- Unsure which AI tools and approaches actually fit your business needs?
+- Need someone who can both code the solution and explain the strategy?
+- Want to avoid expensive mistakes by learning from someone who's built real AI systems?
+- Looking for a freelancer who ships fast and communicates clearly?
 
-- Do you need help translating AI hype into real business results?
-
-- Want to implement AI effectively before competitors get ahead?
-
-- Looking for technical expertise and a clear roadmap for AI solutions?
-
-- Need someone who understands both technical and business perspectives?
-
-[Book Free Intro Call :material-arrow-top-right:](https://www.calendly.com){ .md-button .md-button--primary }
+[Book Free Intro Call :material-arrow-top-right:](https://calendly.com/kate-data/introduction-call){ .md-button .md-button--primary }
 
 </div>
 
 <div class="profile-image-grid" markdown>
 
-![Dave Ebbelaar, AI Entrepreneur and Educator](assets/@daveebbelaar.jpg){ .profile-image alt="Portrait of Dave Ebbelaar, AI entrepreneur and educator" }
+![Katharina Schachmatov, AI Entrepreneur](assets/katharina-schachmatov.jpeg){ .profile-image alt="Portrait of Katharina Schachmatov, AI entrepreneur"}
 
 </div>
 
@@ -61,43 +50,48 @@ canonical_url: https://www.daveebbelaar.com/
 
 ## About me
 
-Hi! I'm Dave, an entrepreneur and educator from the Netherlands. I work with technical professionals facing the overwhelming pace of AI innovation and businesses struggling to translate AI hype into competitive advantage. Whether you're a developer watching your skills becoming obsolete or a company unsure how to implement AI effectively—the challenge is the same: how to effectively use this technology before your competitors do.
+Hi! I'm Katharina, an AI freelancer based in Berlin. I help businesses and developers build AI solutions that actually work—from RAG systems and LLM applications to data pipelines and intelligent automation.
 
-My artificial intelligence journey spans over a decade, with bachelor's and master's degrees in the field and experience building custom data and AI systems across utilities, government, and e-commerce sectors. My tech stack includes Python, PostgreSQL, ML, FastAPI, OpenAI, Claude, Azure, vector databases, RAG, and LLM integration for enterprise applications.
+With 10 years across industries, I've learned that the best solutions come from understanding the problem deeply, getting hands dirty with messy data, and shipping pragmatic, maintainable code that solves today's problems. Fast learner who thinks in systems—I see the big picture while debugging the details.
+
+I started my LLM journey like many developers do: curious, eager to learn, and determined to move from theory to practice. What began with building my first meal planner with Claude API has evolved into a passion for rapid prototyping and shipping production-ready AI solutions. I believe the best way to master AI is by building real things that solve real problems.
+
+My tech stack includes Python, Streamlit, FastAPI, Claude/OpenAI APIs, vector databases (FAISS, Pinecone), PostgreSQL, Docker, and cloud deployment.
 
 ## Why work with me?
 
-Here's what sets me apart and how I can help drive value for your business:
+Here's why I'm the right fit and what you'll gain from working together:
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-building-user:{ .lg .middle } Proven Business Experience
+-   :material-rocket:{ .lg .middle } Fast Implementation & Shipping
 
     ---
 
-    As the founder of Datalumina, I bring entrepreneurial insight to every project. I understand both the technical and business sides of AI implementation, ensuring solutions that deliver real ROI and align with your business goals.
+    I specialize in rapid prototyping and deployment of AI solutions. Coming from a developer mindset, I move quickly without cutting corners. I can help you go from concept to production in weeks, not months, giving you a competitive edge in today's fast-paced AI landscape.
 
--   :material-youtube:{ .lg .middle } Educator & Communicator
-
-    ---
-
-    My experience as a content creator and educator means I can break down complex technical concepts into clear, actionable insights. You'll always understand the 'why' behind technical decisions and get clear progress updates.
-
--   :material-school:{ .lg .middle } Industry Expert
+-   :material-lightbulb:{ .lg .middle } Hands-On Technical Expertise
 
     ---
 
-    With over a decade in AI and data science, including work across utilities, government, and e-commerce sectors, I bring battle-tested expertise to your projects. My solutions are built on real-world experience, not just theory.
+    I'm a practitioner, not just a theorist. I recently transitioned to freelancing after building real AI systems, so I understand both the technical challenges and the business impact. Whether it's RAG implementation, LLM integration, or data pipeline optimization, I bring battle-tested solutions to the table.
 
--   :material-rocket:{ .lg .middle } Fast Implementation
+-   :material-chat-processing:{ .lg .middle } Clear Communication
 
     ---
 
-    I specialize in rapid development and deployment of AI solutions. Using modern tools and proven frameworks, I can help you move from concept to production faster, giving you a competitive edge in today's fast-paced market.
+    I break down complex AI concepts into clear, actionable insights. You'll always understand the 'why' behind technical decisions. I provide regular progress updates, thorough documentation, and collaborate closely with your team to ensure we're aligned every step of the way.
+
+-   :material-school:{ .lg .middle } Continuous Learning & Innovation
+
+    ---
+
+    AI moves fast, and so do I. I'm actively learning the latest techniques and tools, which means you get fresh perspectives and cutting-edge approaches. I stay on top of developments in LLMs, vector databases, and AI best practices so you don't have to.
 
 </div>
 
-## What my past clients say about my work
+
+<!-- ## What my past clients say about my work
 
 <div class="grid cards testimonials" markdown>
 
@@ -133,28 +127,25 @@ Here's what sets me apart and how I can help drive value for your business:
 
     "I am thankful for having come across Dave and Data Freelancer, it was one of the best investment decisions I've made in 2024. **From effective ways to create inbound marketing strategies using social media, through solution architecture design to address all kinds of business challenges**, you will extract a great deal of value from diverse perspectives."
 
-</div>
+</div> -->
+
+<div class="faq-custom" markdown>
 
 ## Frequently asked questions
 
 ??? note "How quickly can you start working on my project?"
-    I can typically begin new projects within 1-2 weeks of contract signing. For urgent matters, I maintain some flexibility for rapid response situations and can potentially start sooner - just let me know your timeline during our initial consultation.
-
+    I'm usually ready to kick off new projects within 1-2 weeks after we finalize the contract. If you're working against a tight deadline, I'm happy to discuss accelerated timelines—just give me a heads up during our first conversation about what you're working with.
 ??? note "Do you require a minimum project size or commitment?"
-    While I can accommodate projects of any size, I find that engagements of at least 20 hours allow for meaningful impact. This gives us enough time to understand your data, implement solutions, and deliver actionable results. We can start with a small pilot project to ensure we're a good fit.
-
-??? note "What industries do you have experience in?"
-    I've successfully delivered projects across e-commerce, manufacturing, healthcare, and financial services. While I specialize in data science fundamentals that apply across sectors, I particularly excel in projects involving customer behavior analysis, process optimization, and predictive modeling.
-
+    I work with projects of all sizes, but I've found that around 20 hours is the sweet spot to really dig into your challenge, understand your data landscape, and deliver solutions that actually move the needle. If you're unsure about fit, we can always start with a smaller pilot to see if we click.
+??? note "What industries have you worked in?"
+    I've tackled projects in healthcare, retail, and insurance. While the fundamentals of data work transcend industries, I've built particular expertise in understanding customer behavior, streamlining operations, and building predictive models that drive real business outcomes.
 ??? note "How do you handle data security and confidentiality?"
-    I take data security extremely seriously. I sign comprehensive NDAs before starting any project, use enterprise-grade encryption for all data transfers, and follow industry best practices for data handling. I can also work within your existing security infrastructure and policies.
-
-??? note "What's your pricing structure?"
-    I offer both project-based and retainer pricing models. Project fees are based on scope, complexity, and value delivered rather than hours worked. For ongoing support, I offer flexible retainer packages. Let's discuss your specific needs during our consultation to determine the most cost-effective approach.
-
-??? note "How do you communicate progress and results?"
-    I maintain clear communication through weekly progress updates and regular check-in meetings. You'll receive detailed documentation of all analyses, findings, and recommendations. For ongoing projects, I provide interactive dashboards and reports that allow you to track progress and results in real-time.
-
+    Data security isn't negotiable for me. I sign NDAs as standard practice, encrypt all data in transit, and adhere to industry security standards. I'm also comfortable integrating with your existing security setup and compliance requirements—we can work however makes you most comfortable.
+??? note "What's your pricing model?"
+    I offer both project-based and ongoing retainer options. Project pricing reflects the scope, complexity, and value you'll get—not just hours on the clock. For continuous support, I design retainers that fit your actual needs. Let's talk about your situation and find an approach that makes financial sense.
+??? note "How do you keep me in the loop?"
+    I believe in transparency. You'll get weekly updates on progress, regular sync meetings, and thorough documentation of everything we discover and build. For longer engagements, I set up dashboards and reports so you can see results as they happen, not just at the end
+</div>
 
 <div class="grid cards" style="margin-top: 3rem" markdown>
 
@@ -164,6 +155,6 @@ Here's what sets me apart and how I can help drive value for your business:
     
     Want to see if we're a match? Let's have a chat and find out. Schedule a free 30-minute strategy session to discuss your AI challenges and explore how we can work together.
 
-    [Book Free Intro Call :material-arrow-top-right:](https://calendly.com){ .md-button .md-button--primary }
+    [Book Free Intro Call :material-arrow-top-right:](https://calendly.com/kate-data/introduction-call){ .md-button .md-button--primary }
 
 </div>
