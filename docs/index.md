@@ -30,11 +30,10 @@ canonical_url: https://www.kate-data.com/
 
 ### I help you move from AI hype to real results
 
-- Struggling to implement AI effectively while competitors move fast?
-- Unsure which AI tools and approaches actually fit your business needs?
-- Need someone who can both code the solution and explain the strategy?
-- Want to avoid expensive mistakes by learning from someone who's built real AI systems?
-- Looking for a freelancer who ships fast and communicates clearly?
+- Struggling to figure out where AI actually fits in your business?
+- Drowning in vendor pitches but need someone who speaks both tech and strategy?
+- Want to build your first AI system?
+- Need a freelancer who can code the solution and train your team?
 
 [Book Free Intro Call :material-arrow-top-right:](https://calendly.com/kate-data/introduction-call){ .md-button .md-button--primary }
 
@@ -50,13 +49,25 @@ canonical_url: https://www.kate-data.com/
 
 ## About me
 
-Hi! I'm Katharina, an AI freelancer based in Berlin. I help businesses and developers build AI solutions that actually work—from RAG systems and LLM applications to data pipelines and intelligent automation.
+Hi! I’m Katharina, a freelance AI engineer based in Berlin.
+I help companies cut through AI hype and build solutions that actually work — RAG systems, LLM applications, document processing, and intelligent automation.
 
-With 10 years across industries, I've learned that the best solutions come from understanding the problem deeply, getting hands dirty with messy data, and shipping pragmatic, maintainable code that solves today's problems. Fast learner who thinks in systems—I see the big picture while debugging the details.
+My approach: Understand the problem deeply, work with the data you have (not the data you wish you had), and ship pragmatic solutions your team will actually use.
 
-I started my LLM journey like many developers do: curious, eager to learn, and determined to move from theory to practice. What began with building my first meal planner with Claude API has evolved into a passion for rapid prototyping and shipping production-ready AI solutions. I believe the best way to master AI is by building real things that solve real problems.
+What makes me different:
 
-My tech stack includes Python, Streamlit, FastAPI, Claude/OpenAI APIs, vector databases (FAISS, Pinecone), PostgreSQL, Docker, and cloud deployment.
+I’ve been exploring generative AI since 2019 — back when we were using GANs, 3 years before ChatGPT made it mainstream. I’ve spent nearly 10 years across healthcare, startups, and retail learning one critical lesson: the best AI projects start with good data and people willing to adapt the technology, not fancy models.
+
+I’m not the person who built AI at scale at Google. I’m the person who helps mid-sized and small companies actually get started.
+
+My background:
+	•	Built production ML pipelines for certified medical AI devices (FHIR, GDPR-compliant)
+	•	Designed and taught 20-hour data science courses to 100+ managers and engineers
+	•	Delivered AI strategy workshops and proof-of-concepts across multiple industries
+	•	Currently focused on RAG systems, chatbots, and document intelligence using OpenAI, Claude, and open-source models
+
+My tech stack: Python, PostgreSQL, LangChain, OpenAI/Claude APIs, FastAPI, Docker, Pinecone/Weaviate, MLFlow
+
 
 ## Why work with me?
 
@@ -64,13 +75,13 @@ Here's why I'm the right fit and what you'll gain from working together:
 
 <div class="grid cards" markdown>
 
--   :material-rocket:{ .lg .middle } Fast Implementation & Shipping
+-   :material-rocket:{ .lg .middle } Fast Implementation & Strategy
 
     ---
 
-    I specialize in rapid prototyping and deployment of AI solutions. Coming from a developer mindset, I move quickly without cutting corners. I can help you go from concept to production in weeks, not months, giving you a competitive edge in today's fast-paced AI landscape.
+    I can evaluate your use case, recommend an approach, and build it. Most consultants do one or the other. I do both. Whether you need a workshop to figure out where AI fits or hands-on engineering to ship a prototype, I’ve got you covered.
 
--   :material-lightbulb:{ .lg .middle } Hands-On Technical Expertise
+-   :material-lightbulb:{ .lg .middle } Pragmatic, Not Perfectionist
 
     ---
 
@@ -86,10 +97,8 @@ Here's why I'm the right fit and what you'll gain from working together:
 
     ---
 
-    AI moves fast, and so do I. I'm actively learning the latest techniques and tools, which means you get fresh perspectives and cutting-edge approaches. I stay on top of developments in LLMs, vector databases, and AI best practices so you don't have to.
-
+    I’ve trained 100+ people in data science and ML. I don’t just hand you code—I explain the why behind decisions, document everything (using MkDocs), and make sure your team can maintain what we build. I see the big picture while debugging the details. Early AI adopter who’s stayed current through every wave (GANs → Transformers → LLMs). AI moves fast, and so do I.
 </div>
-
 
 <!-- ## What my past clients say about my work
 
