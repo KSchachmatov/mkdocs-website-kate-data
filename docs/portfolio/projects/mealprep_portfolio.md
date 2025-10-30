@@ -48,18 +48,21 @@ The goal was to build an AI-powered solution that understands context, ensures v
 Developed a full-stack RAG application with two distinct modes:
 
 **Mode 1: Single Meal Suggestion**
+
 - Ingredient-based semantic search through 2M+ recipes
 - RAG pipeline retrieves similar recipes as context
 - LLM (OpenAI GPT-5-mini) generates personalized suggestions considering dietary preferences
 - Accept/reject workflow with automatic diversity enforcement
 
 **Mode 2: Multi-Day Meal Planning**
+
 - Automated generation of X day meal plans
 - Individual meal acceptance/rejection with on-the-fly regeneration
 - Shopping list aggregation from accepted meals
 - Plan persistence with database storage
 
 **Technical Implementation:**
+
 - Embedded 2.2M recipes using sentence-transformers (text-embedding-3-small)
 - Vector similarity search with pgvector and PostgreSQL
 - Structured outputs using Pydantic for reliable parsing
@@ -103,21 +106,25 @@ Developed a full-stack RAG application with two distinct modes:
 ### RAG Pipeline
 
 1. **Indexing Phase**:
+
    - Load 2.2M recipes from Kaggle dataset
    - Generate embeddings using sentence-transformers
    - Store in PostgreSQL with pgvector extension
 
 2. **Retrieval Phase**:
+
    - User inputs ingredients
    - Semantic search finds similar recipes (cosine similarity)
    - Top-k results retrieved as context
 
 3. **Generation Phase**:
+
    - Similar recipes passed to OpenAI as system context
    - Prompt includes ingredients, dietary preferences, excluded meals
    - Structured output ensures consistent parsing
 
 4. **Diversity Enforcement**:
+
    - Recent meals tracked in database
    - Rejected meals added to exclusion list
    - Prompt explicitly instructs variety across cuisines and methods
@@ -125,12 +132,14 @@ Developed a full-stack RAG application with two distinct modes:
 ## Tech Stack
 
 **AI & Machine Learning**
+
 - OpenAI GPT-5-mini for meal generation
 - sentence-transformers (text-embedding-3-small) for embeddings
 - pgvector for vector similarity search
 - Custom RAG pipeline implementation
 
 **Backend**
+
 - Python 3.12
 - Streamlit for rapid UI development
 - PostgreSQL with pgvector extension
@@ -138,15 +147,18 @@ Developed a full-stack RAG application with two distinct modes:
 - psycopg2 for database connectivity
 
 **Data Processing**
+
 - Pandas for recipe data manipulation (added diet classifications)
 - 2.2M recipe dataset from Kaggle
 
 **Infrastructure**
+
 - Docker & Docker Compose for service orchestration
 - uv for fast Python package management
 - python-dotenv for configuration management
 
 **Development**
+
 - Git for version control
 - Structured project layout with separation of concerns
 
@@ -159,6 +171,7 @@ Developed a full-stack RAG application with two distinct modes:
 - **Learning Focus**: Production RAG implementation, vector databases, structured outputs
 
 **Future Enhancements:**
+
 - Shopping list integration with grocery apps
 - MCP (Model Context Protocol) integration with growing RAG database (see below)
 - Advanced text chunking for recipe processing
@@ -169,12 +182,14 @@ Developed a full-stack RAG application with two distinct modes:
 ## Learnings & Insights
 
 **Technical Challenges Solved:**
+
 1. **Scale**: Efficiently embedding and searching 2M+ recipes
-2. **Parsing Reliability**: Structured outputs improved from 60% to 96%+ accuracy
+2. **Parsing Reliability**: Structured outputs improved parsing
 3. **Diversity**: Prompt engineering crucial for non-repetitive suggestions
 4. **State Management**: Streamlit session state for complex workflows
 
 **Key Takeaways:**
+
 - RAG quality depends heavily on retrieval strategy
 - Prompt engineering is as important as model choice
 - Structured outputs essential for production reliability
