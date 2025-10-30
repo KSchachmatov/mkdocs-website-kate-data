@@ -105,26 +105,30 @@ Developed a full-stack RAG application with two distinct modes:
 
 ### RAG Pipeline
 
-1. **Indexing Phase**:
-   - Load 2.2M recipes from Kaggle dataset
-   - Generate embeddings using sentence-transformers
-   - Store in PostgreSQL with pgvector extension
+1.  **Indexing Phase**:
 
-2. **Retrieval Phase**:
-   - User inputs ingredients
-   - Semantic search finds similar recipes (cosine similarity)
-   - Top-k results retrieved as context
+    - Load 2.2M recipes from Kaggle dataset
+    - Generate embeddings using sentence-transformers
+    - Store in PostgreSQL with pgvector extension
 
-3. **Generation Phase**:
-   - Similar recipes passed to OpenAI as system context
-   - Prompt includes ingredients, dietary preferences, excluded meals
-   - Structured output ensures consistent parsing
+2.  **Retrieval Phase**:
 
-4. **Diversity Enforcement**:
-   - Recent meals tracked in database
-   - Rejected meals added to exclusion list
-   - Prompt explicitly instructs variety across cuisines and methods
+    - User inputs ingredients
+    - Semantic search finds similar recipes (cosine similarity)
+    - Top-k results retrieved as context
 
+3.  **Generation Phase**:
+
+    - Similar recipes passed to OpenAI as system context
+    - Prompt includes ingredients, dietary preferences, excluded meals
+    - Structured output ensures consistent parsing
+
+4.  **Diversity Enforcement**:
+
+    - Recent meals tracked in database
+    - Rejected meals added to exclusion list
+    - Prompt explicitly instructs variety across cuisines and methods
+    
 ## Tech Stack
 
 **AI & Machine Learning**

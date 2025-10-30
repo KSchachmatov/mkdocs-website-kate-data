@@ -782,12 +782,8 @@
 </span></code></pre></div>
 <h3 id="rag-pipeline">RAG Pipeline</h3>
 <ol>
-<li>
-<p><strong>Indexing Phase</strong>:</p>
-</li>
-<li>
-<p>Load 2.2M recipes from Kaggle dataset</p>
-</li>
+<li><strong>Indexing Phase</strong>:</li>
+<li>Load 2.2M recipes from Kaggle dataset</li>
 <li>Generate embeddings using sentence-transformers</li>
 <li>
 <p>Store in PostgreSQL with pgvector extension</p>
@@ -795,9 +791,7 @@
 <li>
 <p><strong>Retrieval Phase</strong>:</p>
 </li>
-<li>
-<p>User inputs ingredients</p>
-</li>
+<li>User inputs ingredients</li>
 <li>Semantic search finds similar recipes (cosine similarity)</li>
 <li>
 <p>Top-k results retrieved as context</p>
@@ -805,9 +799,7 @@
 <li>
 <p><strong>Generation Phase</strong>:</p>
 </li>
-<li>
-<p>Similar recipes passed to OpenAI as system context</p>
-</li>
+<li>Similar recipes passed to OpenAI as system context</li>
 <li>Prompt includes ingredients, dietary preferences, excluded meals</li>
 <li>
 <p>Structured output ensures consistent parsing</p>
@@ -815,9 +807,7 @@
 <li>
 <p><strong>Diversity Enforcement</strong>:</p>
 </li>
-<li>
-<p>Recent meals tracked in database</p>
-</li>
+<li>Recent meals tracked in database</li>
 <li>Rejected meals added to exclusion list</li>
 <li>Prompt explicitly instructs variety across cuisines and methods</li>
 </ol>
