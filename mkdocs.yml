@@ -5,11 +5,11 @@ site_url: https://kate-data.com
 nav:
   - Home:
     - About: index.md
-  # - Case Studies:
-  #   - Overview: portfolio/index.md
-  #   - Projects:
-  #     - portfolio/projects/project-1.md
-  #     - portfolio/projects/project-2.md
+  - Case Studies:
+    - Overview: portfolio/index.md
+    - Projects:
+      - portfolio/projects/mealprep_portfolio.md
+  #    - portfolio/projects/project-2.md
   #- Blog:
   #  - blog/index.md 
 
