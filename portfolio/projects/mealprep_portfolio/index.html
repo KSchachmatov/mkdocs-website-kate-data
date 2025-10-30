@@ -728,21 +728,27 @@
 <p>The goal was to build an AI-powered solution that understands context, ensures variety, and learns from user preferences while leveraging a massive recipe database.</p>
 <h2 id="our-approach">Our Approach</h2>
 <p>Developed a full-stack RAG application with two distinct modes:</p>
-<p><strong>Mode 1: Single Meal Suggestion</strong>
-- Ingredient-based semantic search through 2M+ recipes
-- RAG pipeline retrieves similar recipes as context
-- LLM (OpenAI GPT-5-mini) generates personalized suggestions considering dietary preferences
-- Accept/reject workflow with automatic diversity enforcement</p>
-<p><strong>Mode 2: Multi-Day Meal Planning</strong>
-- Automated generation of X day meal plans
-- Individual meal acceptance/rejection with on-the-fly regeneration
-- Shopping list aggregation from accepted meals
-- Plan persistence with database storage</p>
-<p><strong>Technical Implementation:</strong>
-- Embedded 2.2M recipes using sentence-transformers (text-embedding-3-small)
-- Vector similarity search with pgvector and PostgreSQL
-- Structured outputs using Pydantic for reliable parsing
-- Prompt engineering for diversity and creativity</p>
+<p><strong>Mode 1: Single Meal Suggestion</strong></p>
+<ul>
+<li>Ingredient-based semantic search through 2M+ recipes</li>
+<li>RAG pipeline retrieves similar recipes as context</li>
+<li>LLM (OpenAI GPT-5-mini) generates personalized suggestions considering dietary preferences</li>
+<li>Accept/reject workflow with automatic diversity enforcement</li>
+</ul>
+<p><strong>Mode 2: Multi-Day Meal Planning</strong></p>
+<ul>
+<li>Automated generation of X day meal plans</li>
+<li>Individual meal acceptance/rejection with on-the-fly regeneration</li>
+<li>Shopping list aggregation from accepted meals</li>
+<li>Plan persistence with database storage</li>
+</ul>
+<p><strong>Technical Implementation:</strong></p>
+<ul>
+<li>Embedded 2.2M recipes using sentence-transformers (text-embedding-3-small)</li>
+<li>Vector similarity search with pgvector and PostgreSQL</li>
+<li>Structured outputs using Pydantic for reliable parsing</li>
+<li>Prompt engineering for diversity and creativity</li>
+</ul>
 <h2 id="results-impact">Results &amp; Impact</h2>
 <ul>
 <li>Successfully processes 2.2M+ recipe embeddings</li>
@@ -776,8 +782,12 @@
 </span></code></pre></div>
 <h3 id="rag-pipeline">RAG Pipeline</h3>
 <ol>
-<li><strong>Indexing Phase</strong>:</li>
-<li>Load 2.2M recipes from Kaggle dataset</li>
+<li>
+<p><strong>Indexing Phase</strong>:</p>
+</li>
+<li>
+<p>Load 2.2M recipes from Kaggle dataset</p>
+</li>
 <li>Generate embeddings using sentence-transformers</li>
 <li>
 <p>Store in PostgreSQL with pgvector extension</p>
@@ -785,7 +795,9 @@
 <li>
 <p><strong>Retrieval Phase</strong>:</p>
 </li>
-<li>User inputs ingredients</li>
+<li>
+<p>User inputs ingredients</p>
+</li>
 <li>Semantic search finds similar recipes (cosine similarity)</li>
 <li>
 <p>Top-k results retrieved as context</p>
@@ -793,7 +805,9 @@
 <li>
 <p><strong>Generation Phase</strong>:</p>
 </li>
-<li>Similar recipes passed to OpenAI as system context</li>
+<li>
+<p>Similar recipes passed to OpenAI as system context</p>
+</li>
 <li>Prompt includes ingredients, dietary preferences, excluded meals</li>
 <li>
 <p>Structured output ensures consistent parsing</p>
@@ -801,32 +815,44 @@
 <li>
 <p><strong>Diversity Enforcement</strong>:</p>
 </li>
-<li>Recent meals tracked in database</li>
+<li>
+<p>Recent meals tracked in database</p>
+</li>
 <li>Rejected meals added to exclusion list</li>
 <li>Prompt explicitly instructs variety across cuisines and methods</li>
 </ol>
 <h2 id="tech-stack">Tech Stack</h2>
-<p><strong>AI &amp; Machine Learning</strong>
-- OpenAI GPT-5-mini for meal generation
-- sentence-transformers (text-embedding-3-small) for embeddings
-- pgvector for vector similarity search
-- Custom RAG pipeline implementation</p>
-<p><strong>Backend</strong>
-- Python 3.12
-- Streamlit for rapid UI development
-- PostgreSQL with pgvector extension
-- Pydantic for data validation
-- psycopg2 for database connectivity</p>
-<p><strong>Data Processing</strong>
-- Pandas for recipe data manipulation (added diet classifications)
-- 2.2M recipe dataset from Kaggle</p>
-<p><strong>Infrastructure</strong>
-- Docker &amp; Docker Compose for service orchestration
-- uv for fast Python package management
-- python-dotenv for configuration management</p>
-<p><strong>Development</strong>
-- Git for version control
-- Structured project layout with separation of concerns</p>
+<p><strong>AI &amp; Machine Learning</strong></p>
+<ul>
+<li>OpenAI GPT-5-mini for meal generation</li>
+<li>sentence-transformers (text-embedding-3-small) for embeddings</li>
+<li>pgvector for vector similarity search</li>
+<li>Custom RAG pipeline implementation</li>
+</ul>
+<p><strong>Backend</strong></p>
+<ul>
+<li>Python 3.12</li>
+<li>Streamlit for rapid UI development</li>
+<li>PostgreSQL with pgvector extension</li>
+<li>Pydantic for data validation</li>
+<li>psycopg2 for database connectivity</li>
+</ul>
+<p><strong>Data Processing</strong></p>
+<ul>
+<li>Pandas for recipe data manipulation (added diet classifications)</li>
+<li>2.2M recipe dataset from Kaggle</li>
+</ul>
+<p><strong>Infrastructure</strong></p>
+<ul>
+<li>Docker &amp; Docker Compose for service orchestration</li>
+<li>uv for fast Python package management</li>
+<li>python-dotenv for configuration management</li>
+</ul>
+<p><strong>Development</strong></p>
+<ul>
+<li>Git for version control</li>
+<li>Structured project layout with separation of concerns</li>
+</ul>
 <h2 id="additional-context">Additional Context</h2>
 <ul>
 <li><strong>Timeline</strong>: 1 week</li>
@@ -835,24 +861,30 @@
 <li><strong>Dataset</strong>: 2.2M+ recipes from Kaggle</li>
 <li><strong>Learning Focus</strong>: Production RAG implementation, vector databases, structured outputs</li>
 </ul>
-<p><strong>Future Enhancements:</strong>
-- Shopping list integration with grocery apps
-- MCP (Model Context Protocol) integration with growing RAG database (see below)
-- Advanced text chunking for recipe processing
-- PDF cookbook parsing
-- Nutritional tracking
-- Calendar integration for meal scheduling</p>
+<p><strong>Future Enhancements:</strong></p>
+<ul>
+<li>Shopping list integration with grocery apps</li>
+<li>MCP (Model Context Protocol) integration with growing RAG database (see below)</li>
+<li>Advanced text chunking for recipe processing</li>
+<li>PDF cookbook parsing</li>
+<li>Nutritional tracking</li>
+<li>Calendar integration for meal scheduling</li>
+</ul>
 <h2 id="learnings-insights">Learnings &amp; Insights</h2>
-<p><strong>Technical Challenges Solved:</strong>
-1. <strong>Scale</strong>: Efficiently embedding and searching 2M+ recipes
-2. <strong>Parsing Reliability</strong>: Structured outputs improved from 60% to 96%+ accuracy
-3. <strong>Diversity</strong>: Prompt engineering crucial for non-repetitive suggestions
-4. <strong>State Management</strong>: Streamlit session state for complex workflows</p>
-<p><strong>Key Takeaways:</strong>
-- RAG quality depends heavily on retrieval strategy
-- Prompt engineering is as important as model choice
-- Structured outputs essential for production reliability
-- Docker simplifies local development and deployment</p>
+<p><strong>Technical Challenges Solved:</strong></p>
+<ol>
+<li><strong>Scale</strong>: Efficiently embedding and searching 2M+ recipes</li>
+<li><strong>Parsing Reliability</strong>: Structured outputs improved parsing</li>
+<li><strong>Diversity</strong>: Prompt engineering crucial for non-repetitive suggestions</li>
+<li><strong>State Management</strong>: Streamlit session state for complex workflows</li>
+</ol>
+<p><strong>Key Takeaways:</strong></p>
+<ul>
+<li>RAG quality depends heavily on retrieval strategy</li>
+<li>Prompt engineering is as important as model choice</li>
+<li>Structured outputs essential for production reliability</li>
+<li>Docker simplifies local development and deployment</li>
+</ul>
 <div class="grid cards" style="margin-top: 3rem">
 <ul>
 <li>
